@@ -1,0 +1,69 @@
+.barra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(207, 0, 0);
+    height: 4em;
+    z-index: 9999;
+    margin-bottom: 3em;
+}
+
+.barra__logo {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.barra__logo img {
+    width: 45%;
+    height: 90%;
+    position: absolute;
+    top: 5%
+}
+
+.barra__botones {
+    width: 80%;
+    height: 100%;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.barra__botones-ul {
+    list-style: none;
+    padding-right: 2em;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.barra__botones-ul li {
+    margin: 0px 1em;
+    position: relative;
+    top: 1.5em
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto' , sans-serif;
+    color: white;
+}
+
+a:hover {
+    color: rgb(227, 227, 0);
+}
+
+
+
+
+
+
+

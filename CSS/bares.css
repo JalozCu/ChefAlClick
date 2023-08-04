@@ -1,0 +1,65 @@
+.main {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.contenedor {
+    width: 15em;
+    height: 20em;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 1em;
+    display: inline-block;
+    position: relative;
+    margin: 1em;
+    margin-bottom: 2em;
+    left: 10%;
+    
+}
+
+.contenedor:hover {
+    box-shadow: 1px 1px 2em red;
+    background: rgb(250, 250, 0);
+}
+
+.contenedor img {
+    width: 95%;
+    height: 70%;
+    display: inline-block;
+    position: relative;
+    object-fit: cover;
+    left: 0.4em;
+    top: 0.4em;
+    border-radius: 1em;
+}
+
+.texto {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    border-radius: .9em;
+    top: 1em;
+}
+.texto h3 {
+    color: rgb(207, 0, 0);
+    margin: 0.4em;
+}
+
+.texto h5 {
+    color: rgb(207, 0, 0);
+    margin-bottom: 3px;
+}
+
+.abajo {
+    position: relative;
+    bottom: 2em;
+    text-align: center;
+    
+}
+
+.abajo-h5 {
+    color: rgb(207, 0, 0);
+    font-size: 1em;
+}
+

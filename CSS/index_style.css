@@ -1,0 +1,87 @@
+.negocios {
+    padding-top: 60px;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+
+.negocios__contenedor {
+    width: 15em;
+    height: 25em;
+    display: inline-block;
+    position: relative;
+    margin: 2em;
+    border-radius: 1.3em;
+    border: 2px solid rgb(255, 0, 0);
+    left: 17%;
+    top:5%
+}
+
+.negocios__contenedor:hover {
+    box-shadow: 1px 1px 2em 0 rgb(255, 0, 0);
+    transition: all .5s;
+}
+
+.negocios__contenedor img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 1.2em;
+}
+
+.negocios__contenedor div:hover {
+    background: rgb(237, 237, 0);
+    border: 2px solid rgb(237, 237, 0);
+    box-shadow: 1px 1px 1em rgb(237, 237, 0);
+    transition: all .5s;
+}
+
+.negocios__restaurantes , .negocios__dulceria , .negocios__bares {
+    width: 100%;
+    height: 2.5em;
+    background: rgba(237, 237, 0, .7);
+    position: relative;
+    top:92%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    border-radius: 1.1em;
+    text-align: center;
+      
+}
+
+h3 {
+    font-family: 'Roboto' , sans-serif;
+    color: rgb(207, 0, 0);
+    position: relative;
+    top:20%;
+
+}
+
+.abajo {
+    position: absolute;
+    width: 100%;
+    bottom: 2em;
+    text-align: center;
+    
+}
+
+.abajo-h5 {
+    color: rgb(207, 0, 0);
+    font-family: 'Roboto' , sans-serif;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
